@@ -1,0 +1,13 @@
+.nav-item{
+    width:  0 50% 0 50%   ;
+}
+.nav-link{
+    border-radius: 0% !important;
+    padding:  15px 150px 15px 150px   ;
+}
+.nav-link:hover{
+    background-color: var(--navbar-color-on-hover);
+}
+.fa-check{
+    color: var();
+}

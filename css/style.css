@@ -1,0 +1,86 @@
+:root {
+    /* theme color  */
+    --theme-color: #ffe01b;
+    
+    /* navbar color on hover  */    
+    --navbar-color-on-hover : #ffff;
+    
+    /* button color  */
+    --button-color-light-hover: #f9d906;
+    --theme-color-dark-hover: #c6c6c6;
+    --button-color-dark: #007c89;
+    --button-color-dark-hover: #005962;
+    --button-border-light : black;
+
+    /* text color  */
+    --text-color-dark: rgb(0, 0, 0);
+    --text-color-light: rgb(255, 255, 255); 
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x :     hidden;
+}
+
+.navbar {
+    background-color: var(--theme-color) !important;
+    transition: .5s;
+}
+.navbar:hover {
+    background-color: var(--navbar-color-on-hover) !important;
+}
+
+.button-theme-light {
+    border: 1px solid  var(--button-border-light) !important;
+    border-radius: 0px !important;
+    color: var(--text-color-dark) !important;
+}
+
+.button-theme-light:hover{
+    background-color: var(--theme-color-dark-hover) !important;
+}
+.button-theme-blue {
+    background-color: var(--button-color-dark) !important;
+    border: 1px solid var(--button-color-dark) !important;
+    border-radius: 0px !important;
+    color: var(--text-color-light) !important;
+}
+
+
+.button-theme-blue:hover{
+    background-color: var(--button-color-dark-hover) !important;
+}
+.fa-solid{
+    color: var(--text-color-dark) !important;
+}
+
+.fa-mailchimp{
+    font-size: 40px;
+}
+
+
+.header{
+    background-color: var(--theme-color);
+
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+.grow-with-mailchimp{
+    background-color: var(--theme-color-dark-hover);
+}
+
+.footer{
+    background-color: var(--theme-color-dark-hover);
+}
+
+.link{
+    color: var(--button-color-dark);
+    border-bottom: 1px solid var(--button-color-dark);
+}

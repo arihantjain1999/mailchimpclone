@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAilChimps</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- google fonts  -->
+</head>
+
+<body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><i class="fa-brands fa-mailchimp"></i> mailchimp</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h2>Log In
+                        </h2>
+                    </div>
+                    <div>
+                        <span>Need a Mailchimp account?
+                            <span class="link">Create an account</span></span>
+                    </div>
+                    <br>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn button-theme-blue w-100">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signupmodal" tabindex="-1" aria-labelledby="signupmodal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><i class="fa-brands fa-mailchimp"></i> mailchimp</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h2>Sugn Up
+                        </h2>
+                    </div>
+                    <div>
+                        <span>Need a Mailchimp account?
+                            <span class="link">Create an account</span></span>
+                    </div>
+                    <br>
+                    <hr>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">User Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Confirm Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="form-group form-check ml-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn button-theme-blue w-100 mx-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-md-2 active">
+                    <a class="nav-link active" href="#">Product <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" href="#">Resource</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" href="#">Inspiration</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" href="price.html">Pricing</a>
+                </li>
+
+            </ul>
+        </div>
+        <div>
+            <a class="navbar-brand" href="#"> <i class="fa-brands fa-mailchimp"></i> <span
+                    style="font-size: 20px; font-weight: bold;">mailchimp</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-md-2 active">
+                    <a class="nav-link active text-center" href="#">Sales : <br>9898989898 </a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" href="#"><i class="fa-solid fa-globe nav-link active"></i></a>
+                </li>
+
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass nav-link active"></i></a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <button class="btn button-theme-light px-4 nav-link active" data-toggle="modal"
+                        data-target="#exampleModal">Login</button>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <button class="btn button-theme-blue nav-link active" id="signupmodal" data-toggle="modal"
+                        data-target="#signupmodal">Sign Up Free</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="row ">
+            <div class=" col-md-6">
+                <div class="px-md-5 py-md-3">
+                    <h1>Grow your audience and your revenue</h1>
+                </div>
+                <div class="px-md-5 py-md-3">
+                    Win over new and repeat customers by sending emails and automations from a marketing platform that
+                    has expert advice built in.
+                </div>
+                <br>
+                <div class="px-md-5 pb-md-5">
+                    <button class="btn  button-theme-blue px-md-5 py-md-3 ">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-26 15-42-09.png" class="float-right" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <h1 class="text-center">Outperform your last campaign</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-26 16-21-16.png" class="float-right" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Sell more with email automations</h2>
+                <div class="px-md-5 py-md-3">
+                    Generate more orders with our prebuilt automations: remind abandoned cart shoppers, reengage lost
+                    customers, or cross-sell your products. Marketers have seen, on average, 4x more orders with our
+                    Customer Journey Builder than with bulk emails.
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Sell More</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-26 16-51-38.png" class="float-right" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Win repeat business with predictive segmentation
+                </h2>
+                <div class="px-md-5 my-md-3">
+                    Find and target your most valuable customers to help get them to buy again. Marketers have seen, on
+                    average, a 76% increase in revenue when using our Customer Lifetime Value and Likelihood to Purchase
+                    segments compared to when they didn’t.
+
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Win Repeat business</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-26 16-51-43.png" class="float-right" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Engage more customers with stand-out emails
+                </h2>
+                <div class="px-md-5 py-md-3">
+                    Improve your marketing results with suggestions based on what we know works best. We’ll help you
+                    create click-worthy content with our insights and drag-and-drop design tools.
+
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Engage More Customers</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row grow-with-mailchimp py-5">
+        <div class="col-md-12">
+            <h1 class="text-center"> Grow with Mailchimp</h1>
+        </div>
+        <div class="col-md-12">
+            <h5 class="text-center">Our marketing platform helps over 13 million businesses like these build their thing
+                and keep it growing.</h5>
+        </div>
+        <div class="col-md-12">
+            <div class="row px-md-5">
+                <div class="col-md-4">
+                    <div class="d-flex"><i class="fa-brands fa-vimeo-v mx-auto" style="font-size: 100px;"></i></div>
+                    <div class="text-center">Customers since 2012</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex"><i class="fa-brands fa-google mx-auto" style="font-size: 100px;"></i></div>
+                    <div class="text-center">Customers since 2012</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex"><i class="fa-brands fa-reddit mx-auto" style="font-size: 100px;"></i></div>
+                    <div class="text-center">Customers since 2012</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <h2 class="px-md-5 py-md-3  text-center">Do it all with Mailchimp</h2>
+        <div class="text-center">
+            Bring your audience data, marketing channels, and insights together so you can work on reaching your goals
+            faster—all from a single platform.
+        </div>
+        <div class="row">
+            <div class="col-md-6 pl-5">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Sell more with email automations</h2>
+                <div class="px-md-5 py-md-3">
+                    Generate more orders with our prebuilt automations: remind abandoned cart shoppers, reengage lost
+                    customers, or cross-sell your products. Marketers have seen, on average, 4x more orders with our
+                    Customer Journey Builder than with bulk emails.
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Sell More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-27 11-02-42.png" class="float-left mt-md-4" alt="">
+            </div>
+            <div class="col-md-6 pl-5">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Sell more with email automations</h2>
+                <div class="px-md-5 py-md-3">
+                    Generate more orders with our prebuilt automations: remind abandoned cart shoppers, reengage lost
+                    customers, or cross-sell your products. Marketers have seen, on average, 4x more orders with our
+                    Customer Journey Builder than with bulk emails.
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Sell More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-27 11-02-51.png" class="float-left" alt="">
+            </div>
+            <div class="col-md-6 pl-5">
+                <h2 class="px-md-5 py-md-3 mt-md-5">Sell more with email automations</h2>
+                <div class="px-md-5 py-md-3">
+                    Generate more orders with our prebuilt automations: remind abandoned cart shoppers, reengage lost
+                    customers, or cross-sell your products. Marketers have seen, on average, 4x more orders with our
+                    Customer Journey Builder than with bulk emails.
+                </div>
+                <div class="px-md-5 py-md-3">
+                    <button class="btn button-theme-light px-md-5 py-md-3">Sell More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/image/Screenshot from 2022-08-27 11-02-57.png" class="float-left mt-md-5" alt="">
+            </div>
+
+        </div>
+
+        <div class="header p-md-5 p-sm-2">
+            <div>
+                <h1 class="text-center">Let’s do this</h1>
+            </div>
+            <div>
+                <h5 class="text-center">Every big idea starts with a small step forward.</h5>
+            </div>
+            <div class="d-flex">
+
+                <button class="btn button-theme-blue nav-link active mx-auto px-5 py-3">Pick A Plan</button>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="p-3  d-flex">
+                <div class="row mx-auto">
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-app-store-ios mx-auto"></i>
+                    </div>
+
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-google-play mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-square-facebook mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-instagram mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-square-twitter mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-linkedin mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-pinterest mx-auto"></i>
+                    </div>
+                    <div class="col-md-1 d-flex">
+                        <i class="fa-brands fa-youtube mx-auto"></i>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="text-center">
+                <pre>
+©2001-2022 All Rights Reserved.
+Mailchimp® is a registered trademark of The Rocket Science Group.
+Apple and the Apple logo are trademarks of Apple Inc.
+Mac App Store is a service mark of Apple Inc.
+Google Play and the Google Play logo are trademarks of Google Inc.
+<b>Privacy | Terms | Cookie Preferences</b>
+                </pre>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="row">
+    <div class="col-md-6">
+        <h2 class="px-md-5 py-md-3 mt-md-5">Sell more with email automations</h2>
+        <div class="px-md-5 py-md-3">
+            Generate more orders with our prebuilt automations: remind abandoned cart shoppers, reengage lost customers, or cross-sell your products. Marketers have seen, on average, 4x more orders with our Customer Journey Builder than with bulk emails.
+        </div>
+        <div class="px-md-5 py-md-3">
+            <button class="btn button-theme-light px-md-5 py-md-3">Sell More</button>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <img src="/image/Screenshot from 2022-08-26 16-21-16.png" class="float-left" alt="">
+    </div>
+    
+</div> -->
